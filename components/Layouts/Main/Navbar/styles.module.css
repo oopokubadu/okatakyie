@@ -1,0 +1,7 @@
+.navbar {
+  height: var(--nav-height);
+  position: fixed;
+  inset: auto 0;
+  background-color: white;
+  z-index: 50;
+}

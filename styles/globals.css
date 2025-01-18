@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    --nav-height: clamp(77px, 8vw, 106px);
+  }
+
+  @font-face {
+    font-family: NoeDisplay;
+    src: url(/fonts/NoeDisplay-Bold.woff);
+  }
+
+  @font-face {
+    font-family: PJDisplay;
+    src: url(/fonts/PlusJakartaDisplay-Bold.woff);
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: PJDisplay;
+    src: url(/fonts/PlusJakartaDisplay-BoldItalic.woff);
+    font-weight: 600;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: PJDisplay;
+    src: url(/fonts/PlusJakartaDisplay-Italic.woff);
+    font-style: italic;
+  }
+  @font-face {
+    font-family: PJDisplay;
+    src: url(/fonts/PlusJakartaDisplay-Light.woff);
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: PJDisplay;
+    src: url(/fonts/PlusJakartaDisplay-LightItalic.woff);
+    font-weight: 100;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: PJDisplay;
+    src: url(/fonts/PlusJakartaDisplay-Medium.woff);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: PJDisplay;
+    src: url(/fonts/PlusJakartaDisplay-Regular.woff);
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: PJText;
+    src: url(/fonts/PlusJakartaText-Bold.woff);
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: PJText;
+    src: url(/fonts/PlusJakartaText-Bold.woff);
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: PJText;
+    src: url(/fonts/PlusJakartaText-BoldItalic.woff);
+    font-weight: 600;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: PJText;
+    src: url(/fonts/PlusJakartaText-Italic.woff);
+    font-style: italic;
+  }
+  @font-face {
+    font-family: PJText;
+    src: url(/fonts/PlusJakartaText-Light.woff);
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: PJText;
+    src: url(/fonts/PlusJakartaText-LightItalic.woff);
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: PJText;
+    src: url(/fonts/PlusJakartaText-Regular.woff);
+    font-weight: 400;
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    @apply text-primary2;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: NoeDisplay;
+    font-weight: 600;
+    @apply text-primary;
+  }
+
+  h2 {
+    font-size: 50px;
+    line-height: clamp(60px, 7.5vw, 81px);
+    font-size: clamp(38px, 3.5vw, 50px);
+  }
+
+  h3 {
+    font-family: PJText;
+    font-size: 26px;
+    line-height: clamp(35px, 2vw, 81px);
+  }
+
+  h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+#__next {
+  height: 100%;
+}
+
+:root {
+  --typewriter__cursor--visibility: visible;
+}
+
+.Typewriter__cursor {
+  visibility: var(--typewriter__cursor--visibility);
+}
+
+.contact-animation {
+}
+@keyframes move-infinity {
+  from {
+    transform: translateX(0);
+  }
+  to {
+  }
+}
