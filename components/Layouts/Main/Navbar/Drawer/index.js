@@ -54,7 +54,7 @@ function Drawer({ show = false, onClose }) {
               rel="noopener noreferrer"
             />
             <DrawerItem onClick={onClose} label="About Me" href="/about-me" />
-            <DrawerItem onClick={onClose} label="Contact" href="/contact" />
+            {/* <DrawerItem onClick={onClose} label="Contact" href="/contact" /> */}
           </div>
         </div>
       </motion.div>

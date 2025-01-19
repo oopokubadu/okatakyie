@@ -18,20 +18,9 @@ function Intro() {
           options={{ delay: 100, cursor }}
           onInit={(typewriter) => {
             typewriter
-              .typeString("I create great experiences for users.")
+              .typeString("<span>A product designer by day...</span>")
               .pauseFor(700)
-              .deleteChars(6)
-              .changeDelay(200)
-              .typeString(
-                `<strong class='text-accent relative'>people</strong>.`
-              )
-              .pauseFor(1000)
-              .callFunction(() => {
-                document.documentElement.style.setProperty(
-                  "--typewriter__cursor--visibility",
-                  "hidden"
-                );
-              })
+              .typeString("<br/><span>Batman by night.</span>")
               .start();
           }}
         />

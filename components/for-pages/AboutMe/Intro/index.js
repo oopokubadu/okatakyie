@@ -34,14 +34,13 @@ function Intro() {
         </h2>
         <div className=" xl:w-[64ch] lg:w-[58ch] space-y-6">
           <p>
-
-          Demonstrated success in delivering thriving products that have impacted over a million users globally.
-
           Proven problem-solver with a successful track record in delivering 
           innovative solutions across Fintech, Healthtech, Insuretech, Lawtech, 
           Paytech, Edtech, E-commerce, Digital Marketing, and Media.
+          </p>
 
-
+          <p>
+          Demonstrated success in delivering thriving products that have impacted over a million users globally.
           </p>
           <p>
           Adept at leading digital transformation and crafting user-centric products 
@@ -51,9 +50,15 @@ function Intro() {
           </p>
         </div>
         <div className="mt-[51px]">
-          <Button onClick={() => push("/contact")} className="w-full lg:w-auto">
-            Get in touch with me
-          </Button>
+        <Button
+  onClick={() =>
+    window.open("https://mail.google.com/mail/?view=cm&fs=1&to=opokubadu18@gmail.com", "_blank")
+  }
+  className="w-full lg:w-auto"
+>
+  Get in touch with me
+</Button>
+
         </div>
       </div>
     </section>

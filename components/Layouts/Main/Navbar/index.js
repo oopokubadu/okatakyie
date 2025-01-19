@@ -60,7 +60,7 @@ function Navbar() {
                 About Me
               </a>
             </Link>
-            <Link href="/contact">
+            {/* <Link href="/contact">
               <a
                 className={
                   route === "/contact"
@@ -70,7 +70,7 @@ function Navbar() {
               >
                 Say Hello
               </a>
-            </Link>
+            </Link> */}
           </nav>
           <div
             onClick={() => setShowDrawer(true)}
