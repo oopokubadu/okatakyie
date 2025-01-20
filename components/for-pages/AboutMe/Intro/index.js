@@ -51,13 +51,24 @@ function Intro() {
         </div>
         <div className="mt-[51px]">
         <Button
-  onClick={() =>
-    window.open("https://mail.google.com/mail/?view=cm&fs=1&to=opokubadu18@gmail.com", "_blank")
-  }
+  onClick={() => {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      // Use mailto: for mobile devices to open the Gmail app
+      window.location.href = "mailto:opokubadu18@gmail.com";
+    } else {
+      // Open Gmail in a new tab for desktop
+      window.open(
+        "https://mail.google.com/mail/?view=cm&fs=1&to=opokubadu18@gmail.com",
+        "_blank"
+      );
+    }
+  }}
   className="w-full lg:w-auto"
 >
   Get in touch with me
 </Button>
+
 
         </div>
       </div>
