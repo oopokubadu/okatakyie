@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import pesewaPic from "../../../../public/images/projects/one.png";
-import smartInsurance from "../../../../public/images/projects/two.png";
+import pesewaPic from "/images/projects/one.png";
+import smartInsurance from "/images/projects/two.png";
 import FeaturedImage from "./FeaturedImage";
 
 function Featured() {
