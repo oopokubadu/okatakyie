@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import pesewaPic from "/images/projects/one.png";
-import smartInsurance from "/images/projects/two.png";
+import pesewaPic from "../../../../public/images/projects/one.png";
+import smartInsurance from "../../../../public/images/projects/two.png";
 import FeaturedImage from "./FeaturedImage";
 
 function Featured() {
@@ -19,7 +19,7 @@ function Featured() {
             <div className="flex items-center mt-6">
               <Image
                 quality={100}
-                src="/images/projects/pesewa-logo.svg"
+                src="/images/projects/one.png"
                 alt="pesewa logo"
                 width="129.12"
                 height="26.09"
@@ -36,7 +36,7 @@ function Featured() {
         <Link href="/work/smart-insurance" passHref>
           <a>
             <FeaturedImage
-              src={smartInsurance}
+              src="/images/projects/two.png"
               alt="smart insurance project"
               description="An insurance platform to help users find affordable insurance policy rates"
             />
