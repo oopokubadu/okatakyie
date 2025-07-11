@@ -39,7 +39,7 @@ function Navbar() {
                 Work
               </a>
             </Link>
-            <Link href="https://read.cv/okatakyieopokubadu">
+            <Link href="https://docs.google.com/document/d/1dWE7ESAhWrlh0pyQ2p_AQNU9gWutSQfk/edit?usp=sharing&ouid=107299774996732561422&rtpof=true&sd=true">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
