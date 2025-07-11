@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Button from "../../../Button";
 import styles from "./styles.module.css";
-import maxx from "../../../../public//images/maxx.png";
+import maxx from "../../../../public/images/maxx.png";
 import { useRouter } from "next/router";
 
 function Intro() {
@@ -17,8 +17,8 @@ function Intro() {
       <div className="col-span-5">
         <div className="max-w-[clamp(191px,27vw,322px)]  mx-auto lg:mt-28 lg:mb-0 mb-[clamp(80px,10vw,138px)] ">
           <img
-            src={maxx}
-            alt="Maxx"
+            src="/images/maxx.png"
+            alt="Okatakyie"
             style={{
               width: "100%",
               height: "auto",
