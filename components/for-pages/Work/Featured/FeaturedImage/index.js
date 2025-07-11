@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 function FeaturedImage({ src, alt, description }) {
+  console.log("src", src)
   return (
     <div className="group relative">
       <div className="group-hover:blur-sm transition-all">
@@ -9,10 +10,7 @@ function FeaturedImage({ src, alt, description }) {
           quality={100}
           width="578"
           height="437"
-          layout="responsive"
-          objectPosition="top"
           src={src}
-          placeholder="blur"
           alt={alt}
         />
       </div>
