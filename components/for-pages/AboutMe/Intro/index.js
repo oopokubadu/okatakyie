@@ -16,15 +16,16 @@ function Intro() {
     >
       <div className="col-span-5">
         <div className="max-w-[clamp(191px,27vw,322px)]  mx-auto lg:mt-28 lg:mb-0 mb-[clamp(80px,10vw,138px)] ">
-          <Image
-            quality={100}
-            height={322}
-            width={322}
-            layout="responsive"
+          <img
             src={maxx}
             alt="Maxx"
-            placeholder="blur"
-            priority
+            style={{
+              width: "100%",
+              height: "auto",
+              objectPosition: "top",
+              objectFit: "cover"
+            }}
+            loading="eager"
           />
         </div>
       </div>
