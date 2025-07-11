@@ -12,7 +12,7 @@ function Featured() {
         <Link href="/work/pesewa" passHref>
           <a>
             <FeaturedImage
-              src={pesewaPic}
+              src="https://res.cloudinary.com/dgmevpvaq/image/upload/v1752159261/Screenshot_2025-07-10_145304_rjaj29.png"
               alt="pesewa project"
               description="A mobile payment integration and collection solution."
             />
