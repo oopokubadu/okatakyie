@@ -11,7 +11,7 @@ function FeaturedImage({ src, alt, description }) {
           height="437"
           layout="responsive"
           objectPosition="top"
-          src="https://res.cloudinary.com/dgmevpvaq/image/upload/v1752159261/Screenshot_2025-07-10_145304_rjaj29.png"
+          src={src}
           placeholder="blur"
           alt={alt}
         />
