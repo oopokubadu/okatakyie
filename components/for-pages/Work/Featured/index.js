@@ -19,7 +19,7 @@ function Featured() {
             <div className="flex items-center mt-6">
               <Image
                 quality={100}
-                src="/images/projects/one.png"
+                src="/images/projects/pesewa-logo.svg"
                 alt="pesewa logo"
                 width="129.12"
                 height="26.09"
