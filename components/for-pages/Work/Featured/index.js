@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import pesewaPic from "/images/projects/one.png";
-import smartInsurance from "/images/projects/two.png";
+import pesewaPic from "../../../../public/images/projects/one.png";
+import smartInsurance from "../../../../public/images/projects/two.png";
 import FeaturedImage from "./FeaturedImage";
 
 function Featured() {
@@ -12,7 +12,7 @@ function Featured() {
         <Link href="/work/pesewa" passHref>
           <a>
             <FeaturedImage
-              src={pesewaPic}
+              src="/images/projects/one.png"
               alt="pesewa project"
               description="A mobile payment integration and collection solution."
             />
