@@ -10,7 +10,10 @@ function FeaturedImage({ src, alt, description }) {
           quality={100}
           width="578"
           height="437"
+          layout="responsive"
+          objectPosition="top"
           src={src}
+          placeholder="blur"
           alt={alt}
         />
       </div>
